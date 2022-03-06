@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dzakyhdr.tokopediaui.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_feed_new"
+        android:name="com.dzakyhdr.tokopediaui.FeedNewFragment"
+        android:label="@string/title_feed"
+        tools:layout="@layout/fragment_feed_new" />
+    <fragment
+        android:id="@+id/navigation_official"
+        android:name="com.dzakyhdr.tokopediaui.OfficialStoreFragment"
+        android:label="@string/title_offcial_store"
+        tools:layout="@layout/fragment_official_store" />
+    <fragment
+        android:id="@+id/navigation_whistlist"
+        android:name="com.dzakyhdr.tokopediaui.WhistListFragment"
+        android:label="@string/title_whislist"
+        tools:layout="@layout/fragment_whist_list" />
+    <fragment
+        android:id="@+id/navigation_transaksi"
+        android:name="com.dzakyhdr.tokopediaui.TransactionFragment"
+        android:label="@string/title_transaksi"
+        tools:layout="@layout/fragment_transaction" />
+</navigation>

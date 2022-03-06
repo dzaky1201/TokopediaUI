@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TokopediaUI</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="address">Dikirim ke Jl mesir kp.sasakpanjang</string>
+    <string name="title_gopay">GoPay &amp; Coins</string>
+    <string name="subtitle_gopay">Aktifkan</string>
+    <string name="title_member">Member Silver</string>
+    <string name="subtitle_member">23 Kupon Baru</string>
+    <string name="desc_diskon">Kejar Diskon Spesial</string>
+    <string name="berakhir_dalam">Berakhir Dalam</string>
+    <string name="price">Rp %s</string>
+    <string name="location">Jakarta Selatan</string>
+    <string name="title_feed">Feed</string>
+    <string name="title_offcial_store">Official Store</string>
+    <string name="title_whislist">Whislist</string>
+    <string name="title_transaksi">Transaksi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

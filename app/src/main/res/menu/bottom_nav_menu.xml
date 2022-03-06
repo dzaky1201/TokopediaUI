@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_tokopedia"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_feed_new"
+        android:icon="@drawable/ic_feed"
+        android:title="@string/title_feed" />
+
+    <item
+        android:id="@+id/navigation_official"
+        android:icon="@drawable/ic_official_store"
+        android:title="@string/title_offcial_store" />
+
+    <item
+        android:id="@+id/navigation_whistlist"
+        android:icon="@drawable/ic_whistlist"
+        android:title="@string/title_whislist" />
+
+    <item
+        android:id="@+id/navigation_transaksi"
+        android:icon="@drawable/ic_transaksi"
+        android:title="@string/title_transaksi" />
+
+</menu>
